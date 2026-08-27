@@ -11,3 +11,8 @@ parameters:
         - routes/
 
     level: 7
+
+    phpVersion: 80300
+
+    parallel:
+        maximumNumberOfProcesses: 1
