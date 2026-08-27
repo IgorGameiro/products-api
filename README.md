@@ -64,10 +64,10 @@ Crie o banco de dados no MySQL:
 CREATE DATABASE products_api;
 ```
 
-### 5. Execute as migrations
+### 5. Execute as migrations e popule o banco
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 ### 6. Inicie o servidor
